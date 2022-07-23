@@ -1,32 +1,46 @@
-
-
-.presentation-containter{
+.presentation {
     display: flex;
     flex-direction: column;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    width: 100vw;
-    max-width: 100%;
     height: 100vh;
     justify-content: center;
     color: #ffffff;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../assets/GalaxyPortrait.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../assets/GalaxyPortrait2.jpg);
     text-transform: uppercase;
-    
+
 }
 
-.h1-name-display{
-    letter-spacing: 0.7rem;
+.profile { 
+    line-height: 1.2em;
+    height: 15vh;
+}
+
+.profile h1 {
+    letter-spacing: 0.5rem;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.profile h5 {
+    letter-spacing: 0.3rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.presentation hr{
+    width: 6rem;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+}
+
+.social i {
+    display: inline-flex;
+    margin: 1rem 0.5rem;
     font-size: 2rem;
-}
-
-.h1-name-display{
-    letter-spacing: 0.7rem;
-    font-size: 2rem;
-}
-
-.h5-stack-display{
-    letter-spacing: 0.4rem;
-    font-size: 1.3rem;
 }

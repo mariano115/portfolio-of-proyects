@@ -1,9 +1,14 @@
 import "./Layout.css"
+import { Logo } from '../../index'
 
 const Layout = () =>{
     return(
-        <div>
-            <h2>LAYOUT</h2>
+        <div className="layout">
+            
+            <img src={Logo} alt="" />
+            <a href="">PORTFOLIO</a>
+            <a href="">ABOUT ME</a>
+            <a href="">CONTACT</a>
         </div>    
     )
 }

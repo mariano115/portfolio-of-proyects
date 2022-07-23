@@ -3,8 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 export { default as Presentation } from './components/presentation/Presentation'
 export { default as Layout } from './components/layout/Layout'
+export { default as Logo } from './assets/logo.webp'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

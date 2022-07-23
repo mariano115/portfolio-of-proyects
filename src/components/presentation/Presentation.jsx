@@ -1,14 +1,20 @@
 import "./Presentation.css"
 
-const Presentation = () =>{
-    return(
-        <div className="presentation-containter">
-            <h1 className="h1-name-display">Mariano Guerrero</h1>
-            <h5 className="h5-stack-display">FULL-STACK DEVELOPER</h5>
-                <hr className="br-presentation"/>
-                
-        </div>    
+const Presentation = () => {
+    return (
+        <div className="presentation">
+            <div className="profile">
+                <h1>Mariano Guerrero</h1>
+                <h5>FULL-STACK DEVELOPER</h5>
+            </div>
+            <hr />
+            <div className="social">
+                <i class="bi bi-github"></i>
+                <i class="bi bi-linkedin"></i>
+            </div>
+        </div>
     )
 }
 
 export default Presentation;
+//TODO add some icon to go down
