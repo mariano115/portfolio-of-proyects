@@ -1,0 +1,15 @@
+.about-me{
+    background-color: #242424;
+    color: #ffffff;
+}
+
+
+.about-me hr{
+    width: 6rem;
+}
+
+.icons-container{
+    display: flex;
+    justify-content: space-around;
+
+}

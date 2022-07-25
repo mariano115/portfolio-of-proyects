@@ -6,9 +6,9 @@ const Layout = () =>{
         <div className="layout">
             
             <img src={Logo} alt="" />
-            <a href="">PORTFOLIO</a>
-            <a href="">ABOUT ME</a>
-            <a href="">CONTACT</a>
+            <a href="tral">PORTFOLIO</a>
+            <a href="trial2">ABOUT ME</a>
+            <a href="trial3">CONTACT</a>
         </div>    
     )
 }

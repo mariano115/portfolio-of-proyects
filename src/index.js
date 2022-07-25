@@ -4,8 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-export { default as Presentation } from './components/presentation/Presentation'
-export { default as Layout } from './components/layout/Layout'
+export { default as Presentation } from './components/Presentation/Presentation'
+export { default as Layout } from './components/Layout/Layout'
+export { default as AboutMe } from './components/AboutMe/AboutMe'
 export { default as Logo } from './assets/logo.webp'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
