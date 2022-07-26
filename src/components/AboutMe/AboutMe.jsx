@@ -16,6 +16,7 @@ const AboutMe = () => {
                 <p>I Have experience as Tester Qa and Automation Qa to</p>
                 <p>Here are diferent technologies that i used in my daily work</p>
             </div>
+            <hr />
             <div className='icons-container'>
                 <div className='technologies'>
                     <h3>Languages / Libraries</h3>
